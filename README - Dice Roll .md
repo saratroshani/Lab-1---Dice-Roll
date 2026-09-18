@@ -34,25 +34,22 @@ When we compare the two numbers, our result was 14.3% and the expected result fo
 
 At the same time, 28 rolls is still a small number of rolls. Because of random chance, we would not expect to get exactly 16.7% every time. The percentage can be a little higher or lower even if the die is fair. So based on this experiment, I would say the die appears to be reasonably fair, but I would probably need to roll it more times before being very confident in that conclusion.
 
-Results
-> my_rolls <- c(3, 1, 5, 6, 4, 3, 5, 3, 3, 4, 1, 6, 1, 6, 5, 1, 5, 1, 1, 4, 5, 6, 4, 2, 1, 2, 5, 1)
-> 
-> how_many_rolls <- 28
-> 
-> if_come_up_6 <- as.numeric(my_rolls == 6)
-> 
-> mean(if_come_up_6)
-**[1] 0.1428571**
-> 
-> sum(if_come_up_6)
-**[1] 4**
-> 
-> sim_rolls <- sample(1:6, how_many_rolls, replace = TRUE)
-> 
-> if_come_up_6_sim <- as.numeric(sim_rolls == 6)
-> 
-> mean(if_come_up_6_sim)
-**[1] 0.1428571**
-> 
-> sum(if_come_up_6_sim)
+```r
+sim_rolls <- sample(1:6, how_many_rolls, replace = TRUE)
+
+if_come_up_6_sim <- as.numeric(sim_rolls == 6)
+
+mean(if_come_up_6_sim)
+```
+
+```text
+[1] 0.1428571
+```
+
+```r
+sum(if_come_up_6_sim)
+```
+
+```text
 [1] 4
+```
