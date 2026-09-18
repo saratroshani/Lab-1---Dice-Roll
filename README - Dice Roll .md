@@ -14,6 +14,19 @@ how_many_rolls <- 28
 if_come_up_6 <- as.numeric(my_rolls == 6)
 
 mean(if_come_up_6)
+```
+
+```text
+[1] 0.1428571
+```
+
+```r
+sum(if_come_up_6)
+```
+
+```text
+[1] 4
+```
 > 
 For a fair six-sided die, each number should have an equal chance of coming up. That means the chance of rolling a 6 is 1 out of 6, or about 16.7%.
 
