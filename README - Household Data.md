@@ -1,6 +1,5 @@
 # Household Pulse Data
-
-Study Group Members: Sara Troshani, Alexander Francisco, and Yernar
+Team: Sara Troshani, Alexander Francisco, and Yernar
 
 ## R Code
 
