@@ -26,11 +26,9 @@ sum(if_come_up_6)
 [1] 4
 ```
 
-For a fair six-sided die, each number should have an equal chance of coming up. That means the chance of rolling a 6 is 1 out of 6, or about 16.7%.
-
-When we compare the two numbers, our result was 14.3% and the expected result for a fair die is 16.7%. These are fairly close, so our result does not make the die look obviously unfair.
-
-At the same time, 28 rolls is still a small number of rolls. Because of random chance, we would not expect to get exactly 16.7% every time. The percentage can be a little higher or lower even if the die is fair. Based on this experiment, I would say the die appears to be reasonably fair, but I would probably need to roll it more times before being very confident in that conclusion.
+For a fair six-sided die, each number has the same chance of coming up, so the chance of rolling a 6 is about 16.7%.
+In our experiment, 6 came up about 14.3% of the time. That is pretty close to 16.7%, so the result is close to what we would expect from a fair die.
+Since we only rolled the die 28 times, there can still be some random variation. Based on this experiment, I would say the die seems reasonably fair, but I would want to roll it more times before being more confident.
 
 ```r
 sim_rolls <- sample(1:6, how_many_rolls, replace = TRUE)
