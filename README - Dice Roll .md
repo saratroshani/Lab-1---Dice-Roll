@@ -1,8 +1,7 @@
 # Lab 1 - Dice Roll
 
-Team: Yernar & Alexander Francisco
+Team: Sara Troshani, Alexander Francisco, Yernar
 
-Dice Roll Comments
 
 We rolled the die 28 times in total. Out of those 28 rolls, the number 6 came up 4 times. To find the percentage, we divided 4 by 28, which gives about 0.143, or 14.3%.
 
