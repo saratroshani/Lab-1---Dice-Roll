@@ -1,3 +1,19 @@
-Using R, I calculated a few basic statistics from the Household Pulse data. The mean age for the full sample was 52.25 years. Women had an average age of 51.62 years, while men had an average age of 53.29 years. The standard deviation was 15.59 for women and 16.29 for men.
+# Household Pulse Data
 
-Something I noticed was that the men in the dataset were slightly older on average than the women, by about 1.67 years. I did not expect there to be much of a difference, so that stood out to me. I also found it interesting that "college graduate" was the largest education group in the dataset.
+Study Group Members: Sara Troshani, Alexander Francisco, and Yernar
+
+## R Code
+
+```r
+load("d_HHP2020_24.Rdata")
+
+View(d_HHP2020_24)
+
+summary(d_HHP2020_24)
+```
+
+## What I noticed
+
+Using R, I looked at a few basic statistics from the Household Pulse data. The mean age for the full sample was 52.25 years.
+
+Something I noticed was that "college graduate" was the largest education group in the dataset. I also found it interesting that the average income midpoint was about $95,461, while the median was $82,500. That difference stood out to me because the average was higher than the middle value of the data.
